@@ -10,15 +10,16 @@
         "nginxphp-dockerized"
       ]
     },
-    "name": "Nginx Amplify Agent - Beta",
+    "name": "Nginx Amplify",
     "version": "latest",
     "homepage": "https://www.nginx.com/amplify/",
     "categories": [
       "apps/dev-and-admin-tools"
     ],
-    "logo": "https://amplify.nginx.com/static/5.0.1/img/icon/icon_logo.svg",
+    "logo": "Jelastic-Amplify/images/icon_logo.png",
     "description": {
-      "text": "Add nginx amplify agent to your nginx server. Amplify Agent collects various metrics and metadata from the operating system and the NGINX instances, and sends the data to the Amplify backend for visualization."
+       "text": "NGINX Amplify is a tool for comprehensive monitoring that you can use to proactively detect and fix issues related to running and scaling NGINX-based applications.<div>Supported PHP versions are PHP 5.3, 5.4, 5.5, 5.6, 7.0, and 7.1.</div><div class='warning-lower' style='color:#b7c3da'>To get an API key, create an account at <a href=\"https://amplify.nginx.com/signup/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">Amplify website</a> and copy your key from the start page.</div>",
+       "short": "NGINX Amplify is a tool for monitoring, proactively detecting and fixing issues related to running and scaling NGINX-based applications."
     },
     "settings": {
       "fields": [
@@ -62,8 +63,8 @@
         ]
     },
     "success": {
-        "text": "Addon was applied to ${env.url}",
-        "email": "Addon was applied to ${env.url}"
+        "text": "NGINX Amplify add-on was applied to ${env.url}. You can return to the Amplify dashboard and click <b>Continue</b> in order to collect and visualize data on your NGINX instance hosted at Jelastic.",
+        "email": "NGINX Amplify add-on was applied to ${env.url}. You can return to the Amplify dashboard and click <b>Continue</b> in order to collect and visualize data on your NGINX instance hosted at Jelastic."
     }
   }
 }
